@@ -1,0 +1,28 @@
+div{
+    padding: 10px;
+    border-radius: 3px;
+    border-width: 2px;
+    border-color: #000000;
+    border-style: dotted;
+}
+label{
+    margin-right: 50px;
+    
+   
+    
+}
+section{ padding: 10px;
+    border-radius: 3px;
+    border-width: 2px;
+    border-color: #000000;
+    border-style: dotted;
+
+}
+legend{
+     padding: 10px;
+        border-radius: 3px;
+        border-width: 2px;
+        border-color: #000000;
+        border-style: dotted;
+    
+}

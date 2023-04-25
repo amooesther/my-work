@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 3</title>
+    <link rel="stylesheet" href="./form.css" />
+  </head>
+  <body>
+    Your address
+    <form action="#" method="#">
+      <div>
+        <label for="FIrst name">First Name</label>
+        <input
+          type="text"
+          id="First name"
+          placeholder="Type in your first name"
+          required
+        />
+
+        <p>
+          <label for="Last Name">Last Name</label>
+          <input
+            type="text"
+            id="Last name"
+            placeholder="Type in your last name"
+            required
+          />
+        </p>
+        <p>
+          <label for="Street">Street</label>
+          <input type="text" id="Street" required />
+        </p>
+
+        <p>
+          <label for="City">City</label>
+          <input type="text" id="City" required />
+        </p>
+      </div>
+
+      Additional details
+      <section>
+        <p>
+          <label for="Biography">Biography</label>
+
+          <textarea
+            id="Biography"
+            name="Biography"
+            rows="4"
+            cols="20"
+            maxlength="150"
+          >
+          </textarea>
+        </p>
+
+        <p>
+          <label for="myfile">Image</label>
+          <input type="file" id="myfile" />
+        </p>
+        <p>
+          <label for="Agegroup">Age group</label>
+
+          <select name="agegroup" id="Agegroup">
+            <option value="0-9">0 to 9years</option>
+            <option value="10-19">10 to 19 years</option>
+            <option value="20-29">20 to 29 years</option>
+            <option value="30-49">30 to 39 years</option>
+            <option value="">40 to 49 years</option>
+            <option value="50-59">50 to 59 years</option>
+          </select>
+        </p>
+      </section>
+
+      interests
+
+      <legend>
+        <p>
+          <label for="hobbies">hobbies</label>
+
+          <select name="hobbies" id="hobbies" multiple>
+            <option value="playing soccer">playing soccer</option>
+            <option value="dancing">dancing</option>
+            <option value="gardening">gardening</option>
+            <option value="watching movies">watching movies</option>
+          </select>
+        </p>
+        <p>
+          <label for="Favourite car">Favourite car</label>
+
+          <select name="Favourite car" id="Favourite car">
+            <option value="volvo">Volvo</option>
+            <option value="Toyota">Toyota</option>
+            <option value="BMW">BMW</option>
+            <option value="audi">Audi</option>
+          </select>
+        </p>
+        <p>
+          <label for="Favourite public transport"
+            >Favourite public transport</label
+          >
+
+          <select name="transport" id="transport" multiple>
+            <option value="Ground">Ground</option>
+            <option value="train">train</option>
+            <option value="bus">bus</option>
+            <option value="water">water</option>
+          </select>
+        </p>
+      </legend>
+    </form>
+  </body>
+</html>
